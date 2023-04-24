@@ -1,0 +1,26 @@
+body-rps {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a-rps {
+  color: #00B7FF;
+}
+.card-rps {
+  width: 200px;
+  height: 250px;
+}
+.card-container-rps {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 968px;
+}
+img-rps {
+  width: 200px;
+  height: 200px;
+}
+.random-rps{
+  font-size: 30px;
+}

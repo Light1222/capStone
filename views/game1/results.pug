@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+    div.card-container-rps
+        div.card-rps PLayer Choice
+            img-rps(src=`/images/${playerChoice}-icon.png`)
+
+            p VS
+            div.card-rps PC Choice
+                img(src=`/images/${pcChoice}-icon.png`)
+
+                h3 Winner: #{winner}
+                a-rps(href='/') Play Again
